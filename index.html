@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="gallery">
+        <!-- Картинки с разными видео -->
+        <img src="https://drive.google.com/file/d/1tx_6Fl2skQk0zj7zucvxxTjpvQWUZL2x/view?usp=drive_link" alt="Нариман" class="image" data-video="https://drive.google.com/file/d/1RRmXt75wXi2tPOaFC5q6MGTPu3LsiUL5/view?usp=drive_link">
+        <img src="https://drive.google.com/file/d/1-dxhym8o2kAKckiqn0aWv253y-nU0dVd/view?usp=drive_link" alt="Алинур" class="image" data-video="https://drive.google.com/file/d/1yKTDDZFSPfvYIE68iP8JUFH1XTfRQxAX/view?usp=drive_link">
+        <img src="https://drive.google.com/file/d/1XJcb3YhZe-sEGoSjDb6L8SMXFB2VlStC/view?usp=drive_link" alt="Амир" class="image" data-video="https://drive.google.com/file/d/12SDsXgjoECTes5EkRQmVNckw124AyJ2q/view?usp=drive_link">
+        <img src="https://example.com/image4.jpg" alt="Фото 4" class="image" data-video="https://vk.com/video-123456_654321">
+    </div>
+
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="videoPlayer" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
